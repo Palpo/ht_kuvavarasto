@@ -5,7 +5,7 @@ Harjoitustyössä toteutetaan kuvahakupalvelu käyttäen [Google App Engine -alu
 Palveluun voi tallentaa kuvia avainsanoineen.
 Kuvia voi hakea avainsanojen perusteella ja kuvaan liittyviä avainsanoja voi myös muokata.
 Järjestelmä pitää kirjaa toisiinsa liittyvistä avainsanoista.
-Lisäksi kuvavarastoon on mahdollista toteuttaa myös lisäominaisuuksia (ks. kohta *Kuvavaraston lisäominaisuudet*).
+Lisäksi kuvavarastoon on mahdollista toteuttaa myös lisäominaisuuksia.
 
 Varsinaisen harjoitustyön lisäksi tulee suorittaa vertaisarviontitehtävä, jossa kukin ryhmä arvioi jonkin toisen ryhmän palvelun.
 
@@ -41,7 +41,7 @@ Lisäksi tarvitaan Google-tili, jolla luodaan pari App Engine -sovellusta.
 Myös [Lintula](http://www.cs.tut.fi/lintula/)-tunnus tarvittaneen.
 
 Työ toteutetaan oletusarvoisesti parityönä. Yksinkin saa tehdä.
-Jos olet vailla harjoitustyöparia, voit etsiä sellaista vaikkapa IrcNetin IRC-kanavalla `#palpo`.
+Jos olet vailla harjoitustyöparia, voit etsiä sellaista vaikkapa IRCnetin kanavalla `#palpo`.
 
 
 ## Google App Engine
@@ -130,17 +130,11 @@ Kuvalisäimen pitää toimia [Lintulassa](http://www.cs.tut.fi/lintula/) ylläol
 Yllä mainitut Kuvavaraston, Kuvahaun ja Kuvalisäimen ominaisuudet ovat pakollisia; ne pitää olla jotakuinkin toteutettu, että harjoitustyö hyväksytään.
 Lisäksi on mahdollista toteuttaa lisäominaisuuksia:
 
-<table>
-  <tr>
-    <td>Lisäominaisuus</td>
-  </tr>
-  <tr>
-    <td>Käytetään jotain sellaista App Enginen tarjoamaa palvelua, jota ei ole mainittu tässä työohjeessa. Käytön pitää olla ainakin etäisesti järkevää. Esimerkiksi Memcache-palvelun käyttö suorituskyvyn parantamiseen tai  Channel-palvelun käyttö web-käyttöliittymän päivittämiseen. Tai jotain muuta.</td>
-  </tr>
-  <tr>
-    <td>Käytetään jotain App Enginen ulkopuolista palvelua. Käytön pitää olla ainakin etäisesti järkevää. Esimerkiksi mahdollisuus kuvien julkaisuun jossain ulkopuolisessa kuvapalvelussa.</td>
-  </tr>
-</table>
+#### Lisäominaisuus 1
+Käytetään jotain sellaista App Enginen tarjoamaa palvelua, jota ei ole mainittu tässä työohjeessa. Käytön pitää olla ainakin etäisesti järkevää. Esimerkiksi Memcache-palvelun käyttö suorituskyvyn parantamiseen tai  Channel-palvelun käyttö web-käyttöliittymän päivittämiseen. Tai jotain muuta.
+
+#### Lisäominaisuus 2
+Käytetään jotain App Enginen ulkopuolista palvelua. Käytön pitää olla ainakin etäisesti järkevää. Esimerkiksi mahdollisuus kuvien julkaisuun jossain ulkopuolisessa kuvapalvelussa.
 
 
 ## Harjoitustyön palautus
@@ -193,6 +187,7 @@ Arvioinnissa vastataan ainakin seuraaviin kysymyksiin:
 * Onko dokumentaatio riittävän kattava ja selkeä? Miten sitä voisi parantaa?
 * Vastaako rajapinta dokumentaatiota?
 * Toimiiko rajapinta järkevästi virheellisten syötteiden tapauksessa?
+* Millä tavoin arvioitava rajapinta eroaa omasta rajapinnastanne? Onko jompi kumpi ratkaisu parempi?
 
 Sopiva pituus arviointidokumentille on sellainen, että ylläoleviin kysymyksiin on järkevästi vastattu.
 Mitään varsinaista kattavaa testausta (as in [testauskurssi](http://www.cs.tut.fi/~testaus/s2015/)) ei arvioitavalle rajapinnalle tarvitse tehdä.
