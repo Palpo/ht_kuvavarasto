@@ -1,5 +1,5 @@
-Harjoitustyöohje
-================
+Harjoitustyöohje (Kuvavarasto)
+==============================
 
 Harjoitustyössä toteutetaan kuvahakupalvelu käyttäen [Google App Engine -alustaa](https://developers.google.com/appengine/) Python-ohjelmointikielellä.
 Palveluun voi tallentaa kuvia avainsanoineen.
