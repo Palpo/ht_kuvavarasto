@@ -32,6 +32,8 @@ Jos huomaat tässä tehtävänannossa virheitä, puutteita tai epäselvyyksiä, 
 
 ## Harjoitustyöryhmän muodostaminen
 
+**HUOM! Ilmoittautuminen ei väliaikaisesti toimi. GitHubin kurssille myöntämien yksityisten repositorioiden määrässä on rajoitus, joka tuli ma 19.10 yllättäen täyteen. Tästä syystä ilmoittautuminen ei tällä hetkellä toimi. Rajan nostoa on pyydetty GitHubilta. Toivottavasti asia korjaantuu pian. Ilmoittelemme sitten.**
+
 Ensimmäinen haaste on harjoitustyöryhmän muodostaminen.
 Se tapahtuu [Palpoilmo-palvelussa](https://palpoilmo.appspot.com/), joka tarjoaa REST-rajapinnan harjoitusryhmien luontiin.
 [Rajapinta on dokumentoitu täällä](https://palpoilmo.appspot.com).
