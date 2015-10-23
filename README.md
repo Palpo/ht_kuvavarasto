@@ -16,7 +16,7 @@ Jos huomaat tässä tehtävänannossa virheitä, puutteita tai epäselvyyksiä, 
 
 <table>
   <tr>
-    <td>2015-10-23</td>
+    <td>2015-10-<strong>28</strong></td>
     <td>Harjoitustyöryhmän muodostamisen takaraja</td>
   </tr>
   <tr>
