@@ -97,6 +97,11 @@ Kuvien tallennus Kuvavarastoon tapahtuu seuraavasti:
     3. tallentaa pienennetyn kuvan [Cloud Storage](https://developers.google.com/storage/docs/concepts-techniques) -palveluun haluamallaan tavalla (esimerkiksi käyttäen [Google Cloud Storage Clientiä](https://developers.google.com/appengine/docs/python/googlecloudstorageclient/)).
     4. tallentaa kuvan metatiedot [DataStore -palveluun käyttäen NDB-kirjastoa](https://developers.google.com/appengine/docs/python/ndb/)
 
+* Kuvat saa ilmaiseksi talletettua Default buckettiin, mutta se täytyy erikseen aktivoida käyttöönsä:
+    1. Vieraile App Engine Admin konsolissa: [https://appengine.google.com](https://appengine.google.com)
+    2. Valitse: Application Settings ja sivun alalaidasta: Cloud Integration
+    3. Kilkkaa: Create ja odottele (voi kestää tovin)
+
 
 ### Toisiinsa liittyvät avainsanat
 
